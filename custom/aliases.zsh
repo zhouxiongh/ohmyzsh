@@ -35,6 +35,6 @@ alias nt="sh -c 'cd $(pwd); st' > /dev/null 2>&1 &"
 alias ta='tmux a'
 alias t='tmux'
 alias lo='lsof -p $(fps) +w'
-alias setproxy="export ALL_PROXY=socks5://127.0.0.1:1089"
-alias unsetproxy="unset ALL_PROXY"
+alias set_proxy="export ALL_PROXY=socks5://127.0.0.1:1080"
+alias unset_proxy="unset ALL_PROXY"
 alias vi=vim
